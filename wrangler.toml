@@ -1,17 +1,17 @@
-name = "server-sg"
+name = "server2"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[ routes ]]
-pattern = "sg1.sawit.web.id"
+pattern = "svr.almahdi.biz.id"
 custom_domain = true 
 [[ routes ]]
-pattern = "bakrie.ac.id.sg1.sawit.web.id"
+pattern = "bakrie.ac.id.svr.almahdi.biz.id"
 custom_domain = true 
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
-UUID = "7b2502b3-1b78-4c98-8b71-49f4a5df6b41"
+UUID = "ddc714d3-e21c-496d-b1b6-3bb9a6c6ea15"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
