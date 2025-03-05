@@ -1,13 +1,13 @@
-name = "server1"
+name = "svr1"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 [[ routes ]]
-pattern = "svr.sawit.web.id"
+pattern = "svr1.sawit.web.id"
 custom_domain = true 
 [[ routes ]]
-pattern = "bakrie.ac.id.svr.sawit.web.id"
+pattern = "bakrie.ac.id.svr1.sawit.web.id"
 custom_domain = true 
 
 [vars]
